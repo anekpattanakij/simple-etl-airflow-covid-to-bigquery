@@ -94,6 +94,11 @@ with DAG(
             },
             {
                 'mode': 'NULLABLE',
+                'name': 'patient_type',
+                'type': 'INTEGER'
+            },
+            {
+                'mode': 'NULLABLE',
                 'name': 'province',
                 'type': 'STRING'
             },
